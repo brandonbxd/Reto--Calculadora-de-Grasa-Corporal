@@ -29,7 +29,7 @@ export const BodyFatResult = ({ fatPercentage }) => {
     <section style={styleResultSection}>
       <div style={styleResultContainer}>
         {!isValid ? (
-          <h1 style={styleBadPercentage}>*Resultado invalido*</h1>
+          <h1 style={styleBadPercentage}>*Resultado invalido, grasa {'>'} 35% *</h1>
         ) : (
           <>
             <h1>Tu resultado: {result}%</h1>
