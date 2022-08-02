@@ -1,0 +1,82 @@
+body{
+  background-color: black;
+  top:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+}
+
+
+body::-webkit-scrollbar 
+{
+	width: 5px;               /* width of the entire scrollbar */
+	position: absolute;
+	left: 0;
+}
+body::-webkit-scrollbar-track 
+{
+	background: black;       /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb 
+{	
+	width: 2px;
+	background-color: #8667F0;    /* color of the scroll thumb */
+	border-radius: 20px;       /* roundness of the scroll thumb */
+	border: 1px solid #333333;  /* creates padding around scroll thumb */
+}
+
+.form-check-input:checked {
+    background-color: #8667F0;
+    border-color: #8667F0;
+}
+
+.btn-primary{
+	background-color: #8667F0;
+	border-color: #8667F0;
+}
+/* .btn{
+
+} */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+button[type="submit"]{
+	border-radius: 25px;
+	height: 40px;
+	width: 80px ;
+	background-color: #8667F0;
+	color: white;
+	cursor:pointer;
+}
+button[type="submit"]:hover{
+	transition: 0.4s;
+	border: 1px solid white;
+}
+
+
+button[type="reset"]{
+	border-radius: 25px;
+	height: 40px;
+	width: 80px;
+	background-color: black;
+	color: white;
+	cursor:pointer;
+}
+button[type="reset"]:hover{
+	transition: 0.4s;
+	background: white;
+	color: black;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
